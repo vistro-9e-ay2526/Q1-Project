@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">	
+	<title>Q1 Project</title>
+	<style type="text/css">
+		body {
+			background-color: #58566F;
+		}
+
+		.top-box {
+			position: fixed;
+			top: 0px;
+			left: 0px;
+			height: 40px;
+			margin-bottom: 15px;
+			background-color: #FFFBB0;
+			width:100%;
+			border: 2px solid #190933;
+		}
+
+		#header {
+			text-align: center;
+			color: #190933;
+		}
+
+		#profile {
+			width: 150px;
+			height: 250px; 
+			border-radius: 10px;
+			margin-left: 10%;
+			margin-right: 5%;
+			margin: 10px;
+		}
+
+		h1, h3 {
+			margin-left: 10; 
+			margin-right: 50px;
+			color: #96AAEC;
+		}
+
+		#profile-box {
+			border: 0px;
+			padding: 5px;
+			margin: 10px;
+			margin-left: 30%;
+			margin-right: 0px;
+			background-color: #190933;
+		}
+
+		#about-me {
+			text-align: center;
+			margin-left: auto;
+			margin-right: auto;
+			color: #FFFEE2;
+		}
+
+		ol {
+			margin-left: 100px;
+			color: #FFFEE2;
+		}
+
+		.box {
+			border: 2px solid #190933;
+			padding: 5px;
+			margin: 5px;
+			background-color: #FFFBB0;
+			width:90%;
+			margin-left: auto;
+			margin-right: auto;
+		}
+
+		.headline {
+			font-size: 20px;
+			font-weight: bold;
+			margin-bottom: 5px;
+			text-align: center;
+			color: #190933;
+		}
+
+		img {
+			width: 400px;
+			height: 200px;
+			border-radius: 10px;
+			margin-left: 150px;
+			margin-right: 10px;
+			border: 2px dotted #FFFEE2;
+		}
+
+		dt, ul {
+			margin-left: 20px;
+			color: #FFFEE2;
+		}
+
+		a {
+			margin-left: 150px;
+			color: #FFFBB0;
+		}
+
+		input[type="text"], input[type="email"], textarea, select, input[type="submit"] {
+			border-radius: 10px;
+			background-color: #FFFEE2;
+			border: none;
+			padding: 5px;
+			margin-bottom: 10px;
+			width: 100%;
+		}
+
+		form {
+			margin-left: auto;
+			margin-right: auto;
+			background-color: #96AAEC;
+			width: 35%;
+			padding: 20px;
+			border-radius: 20px;
+			Box-shadow: 10px 10px 5px 0px rgba(170, 156, 156, 0.75);
+			color: #190933;
+		}		
+	</style>
+</head>
+<body>
+	<div class="top-box">
+		<h3 id="header">My Personal Portfolio</h3>
+	</div>
+	<br>
+	<br>
+	<br>
+
+	<div class="box" id="profile-box">
+		<div style= "display: flex; align-items: center;">
+			<img src="Profile.png" id="profile">
+			<div>
+			<h1>Hello! I'm <span style="color: #FFFEE2;">Lizzie Vistro</span></h1>
+			<h3>Aspiring Wed Developer</h3>
+			</div>
+		</div>
+	</div>
+	<br>
+	<br>
+
+	<div class="box">
+		<div class="headline">About Me</div>
+	</div>
+	<br>
+		<p id="about-me">I'm Lizzie, a Junior High School student from OB Montessori Center, 9 Emerald.<br>
+		Some of my skills in the tech field are listed below.</p>
+		<ol>
+			<li>Graphic Design</li>
+			<li>Basic Programming Skills</li>
+			<li>Website Development</li>
+		</ol>
+	<br>
+	<br>
+
+	<div class="box">
+		<div class="headline">My Works</div>
+	</div>
+	<br>
+
+	<div style="display: flex; align-items: center;">
+	<img src="Robotic Club Application.png" alt="Robotics" style="width: 500px; height: 300px;">
+	<dt>Uses:</dt>
+		<ul>
+			<li>HTML & CSS Projects</li>
+			<li>HTML Forms</li>
+		</ul>
+	</div>
+	<br>
+	<a href="GH_ICT9Emerald_Q1SkillsTest_Vistro_Philomena.html">Robotics Club Application</a>
+	<br>
+	<br>
+
+	<div style="display: flex; align-items: center;">
+	<img src="Top 3 Favorite Series.png" atl="Series" style="width: 500px; height: 300px;">
+	<dt>Uses:</dt>
+	<ul>
+		<li>HTML & CSS Projects</li>
+		<li>Lists, Links, and Images</li>
+	</ul>
+	</div>
+	<br>
+	<a href="GH_ICT9Emerald_Q1SW1_Vistro_Philomena.html">My Top 3 Favorite Movies/Series</a>
+	<br>
+	<br>
+
+	<div class="box">
+		<div class="headline">Contact Me</div>
+	</div>
+	<br>
+
+<form>
+	<label for="fullname"><h4>Full Name</h4></label>
+	<input type="text" name="fullname">
+	<br>
+
+	<label for="email"><h4>Email</h4></label>
+	<input type="email" name="email">
+	<br>
+	
+	<legend><h4>How did you find out about me?</h4></legend>
+
+		<input type="radio" value="Facebook">
+		<label>Facebook</label>
+
+		<input type="radio" value="Instagram">
+		<label>Instagram</label>
+
+		<input type="radio" value="Friends">
+		<label>Friends</label>
+		<br>
+
+	<legend><h4>Services Interested In</h4></legend>
+
+		<input type="checkbox" value="Web Design">
+		<label>Web Design</label>
+
+		<input type="checkbox" value="Graphic Design">
+		<label>Graphic Design</label>
+
+		<input type="checkbox" value="Robotics">
+		<label>Robotics</label>
+		<br>
+
+	<legend><h4>Rate my Porfolio</h4></legend>
+
+		<select id="rate-my-portfolio">
+			<option value="1(worst)">1(worst)</option>
+			<option value="2">2</option>
+			<option value="3">3</option>
+			<option value="4">4</option>
+			<option value="5(best)">5(best)</option>
+		</select>
+		<br>
+
+		<label><h4>Any Feedback</h4></label>
+		<textarea cols="30" rows="3"></textarea>
+		<br>
+
+		<input type="submit" value="Submit">
+</form>
+</body>
+</html>
